@@ -1,0 +1,387 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Manrope'
+  }
+  
+  header {
+    background-image: url(images/header2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 3751px;
+  }
+  
+  #home {
+    margin-left: 270px;
+  }
+  S
+  .nav, #button1 {
+    position: relative;
+    top: 40px;
+  }
+  
+  .nav {
+    font-weight: 700;
+    margin-left: 27px;
+  }
+  
+  .nav:hover {
+    color: rgb(255, 0, 55);
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  
+  #button1 {
+    margin-left: 50%;
+    color: white;
+    background-color: #F84646;
+    width: 78px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: #F84646;
+    font-size: 14px;
+  }
+  
+  #paragraph1 {
+    width: 650px;
+    font-size: 20px;
+    line-height: 36px;
+  }
+  
+  #header1 {
+    font-size: 64px;
+    margin-top: 220px;
+  }
+  
+  #header1, #paragraph1 {
+    margin-left: 160px;
+  }
+  
+  #paragraph2 {
+    margin: auto;
+    text-align: center;
+    font-size: 24px;
+    max-width: 994px;
+    line-height: 39.5px;
+  }
+  
+  .mainparagraph1 {
+    margin: auto;
+    width: 298px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+  .mainspan1 {
+    font-weight: 800;
+    font-size: 36px;
+  }
+  
+  .div1 {
+    margin: auto;
+    width: 33%;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  #mainlorem {
+    margin-top: 70px;
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+  }
+  
+  .mainheader {
+    font-size: 64px;
+    font-weight: 700;
+    color: #2E2E2E;
+  }
+  
+  .mainparagraph2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #808080;
+    max-width: 523px;
+  }
+  
+  .button2 {
+    width: 160px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #f84646;
+    color: white;
+    border-color: #f84646;
+  }
+  
+  #main1 {
+    position: relative;
+    left: 900px;
+    top: 100px;
+  }
+  
+  #mainbutton1 {
+    position: relative;
+    left: 150px;
+    bottom: 300px;
+  }
+  
+  
+  #mainheader, #mainparagraph2 {
+    position: relative;
+    left: 150px;
+    bottom: 450px;
+  }
+  
+  #mainbutton2, #mainparagraph3, #mainheader2 {
+    display: inline-block;
+  }
+  
+  #mainheader2 {
+    position: relative;
+    bottom: 400px;
+    left: 450px;
+  }
+  
+  #mainparagraph3 {
+    position: relative;
+    left: 50px;
+    bottom: 140px;
+  }
+  
+  #mainbutton2 {
+    position: relative;
+    bottom: 20px;
+    right: 480px;
+  }
+  
+  #main2 {
+    position: relative;
+    left: 150px;
+  }
+  
+  footer {
+    padding: 50px;
+    font-size: 16px;
+    color: #E6E6E6;
+    font-family: "Inter";
+    background-color: rgb(248, 70, 70);
+    width: 100%;
+    height: 100%;
+  }
+  
+  .footer1 {
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+  }
+  
+  footer span {
+    line-height: 50px;
+  }
+  
+  ul {
+    position: relative;
+    right: 40px;
+    list-style: none;
+    font-size: 16px;
+    line-height: 64px;
+  }
+  
+  footer a {
+    color: #E6E6E6;
+  }
+  
+  footer div {
+    display: inline-block;
+  }
+  
+  footer div:nth-child(2) {
+    position: relative;
+    bottom: 60px;
+  }
+  
+  footer div:nth-child(3) {
+    position: relative;
+    bottom: 120px;
+  }
+  
+  footer div:nth-child(4) {
+    position: relative;
+    bottom: 180px;
+  }
+  
+  #list {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: none;
+  }
+  
+  @media screen and (max-width: 650px) {
+    header {
+      background-image: url(images/header2.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #list {
+      display: inline;
+    }
+    header {
+      height: auto;
+    }
+    #paragraph1 {
+      display: inline;
+      width: 335px;
+    }
+    #header1, #paragraph1 {
+      text-align: center;
+      margin-left: 0px;
+    }
+    .div1 {
+      width: 100%;
+    }
+    .nav {
+      display: none;
+    }
+    footer div {
+      display: block;
+    }
+    footer div:nth-child(2) {
+      position: relative;
+      bottom: 0px;
+    }
+    
+    footer div:nth-child(3) {
+      position: relative;
+      bottom: 0px;
+    }
+    
+    footer div:nth-child(4) {
+      position: relative;
+      bottom: 0px;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    header {
+      height: auto;
+    }
+    #paragraph1 {
+      display: inline;
+      width: 565px;
+    }
+  }
+  
+  @media screen and (max-width: 1050px) {
+    #main1 {
+      margin-top: 40px;
+      position: relative;
+      left: 0px;
+      top: 0px;
+    }
+    
+    #mainbutton1 {
+      position: relative;
+      left: 0px;
+      bottom: 0px;
+    }
+    
+    
+    #mainheader, #mainparagraph2 {
+      position: relative;
+      left: 0px;
+      bottom: 0px;
+    }
+    
+    #mainbutton2, #mainparagraph3, #mainheader2 {
+      display: block;
+    }
+    
+    #mainheader2 {
+      position: relative;
+      bottom: 0px;
+      left: 0px;
+    }
+    
+    #mainparagraph3 {
+      position: relative;
+      left: 0px;
+      bottom: 0px;
+    }
+    
+    #mainbutton2 {
+      margin-bottom: 30px;
+      position: relative;
+      bottom: 0px;
+      right: 0px;
+    }
+    
+    #main2 {
+      position: relative;
+      left: 0px;
+    }  
+    #button1 {
+      margin-left: 0%;
+    }
+  }
+  @media screen and (max-width: 1445px) {
+    #main1 {
+      margin-top: 40px;
+      position: relative;
+      left: 0px;
+      top: 0px;
+    }
+    
+    #mainbutton1 {
+      position: relative;
+      left: 0px;
+      bottom: 0px;
+    }
+    
+    
+    #mainheader, #mainparagraph2 {
+      position: relative;
+      left: 0px;
+      bottom: 0px;
+    }
+    
+    #mainbutton2, #mainparagraph3, #mainheader2 {
+      display: block;
+    }
+    
+    #mainheader2 {
+      position: relative;
+      bottom: 0px;
+      left: 0px;
+    }
+    
+    #mainparagraph3 {
+      position: relative;
+      left: 0px;
+      bottom: 0px;
+    }
+    
+    #mainbutton2 {
+      margin-bottom: 30px;
+      position: relative;
+      bottom: 0px;
+      right: 0px;
+    }
+    
+    #main2 {
+      position: relative;
+      left: 0px;
+    }  
+    #button1 {
+      margin-left: 0%;
+    }
+  }
